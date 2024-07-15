@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
             const taskhtml=`
             <div class="expenses_records" data-id="${record.id}">
             <span>Record:${record.records}</span>
-            <span>Date:${new Date(record.date).toLocaleString()}</span>
+            <span>Date:${(record.date).toLocaleString()}</span>
             <button class="edit_expenses">Edit</button>
             <button class="delete_expenses">Delete</button>
             </div>`
